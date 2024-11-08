@@ -1,0 +1,5 @@
+package Entites.enums;
+
+public enum WorkerLevel {
+
+}

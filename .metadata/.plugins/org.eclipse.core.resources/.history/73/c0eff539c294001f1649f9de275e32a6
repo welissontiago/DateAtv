@@ -1,0 +1,13 @@
+package Entites;
+
+import Entites.enums.WorkerLevel;
+
+public class worker {
+	
+	private String name;
+	private WorkerLevel level;
+	private Double Salary;
+	
+
+
+}

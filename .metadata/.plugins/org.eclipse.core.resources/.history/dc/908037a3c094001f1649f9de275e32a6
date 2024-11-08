@@ -1,0 +1,38 @@
+package Entites;
+
+public class worker {
+	
+	String name;
+	Enum workerlevel;
+	Double Salary;
+	
+	
+	
+	
+	public worker(String name, Enum workerlevel, Double salary) {
+		this.name = name;
+		this.workerlevel = workerlevel;
+		Salary = salary;
+	}
+	
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Enum getWorkerlevel() {
+		return workerlevel;
+	}
+	public void setWorkerlevel(Enum workerlevel) {
+		this.workerlevel = workerlevel;
+	}
+	public Double getSalary() {
+		return Salary;
+	}
+	public void setSalary(Double salary) {
+		Salary = salary;
+	}
+
+}
